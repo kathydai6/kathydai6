@@ -1,3 +1,4 @@
+/*my store database here.*/
 create table bikes(id integer primary key, name text, price integer, aisle NUMERIC);
 insert into bikes values (1, "blue", 2, 1);
 insert into bikes values (2, "red", 4, 2);
