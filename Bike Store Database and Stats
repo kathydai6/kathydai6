@@ -1,0 +1,10 @@
+create table bikes(id integer primary key, name text, price integer, aisle NUMERIC);
+insert into bikes values (1, "blue", 2, 1);
+insert into bikes values (2, "red", 4, 2);
+insert into bikes values (3, "green", 3, 3);
+insert into bikes values (4, "yellow", 8, 4);
+insert into bikes values (5, "grey", 7, 5);
+
+select * from bikes
+where price>3
+order by price;
